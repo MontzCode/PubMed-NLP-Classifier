@@ -4,7 +4,7 @@ A lightweight end-to-end ML pipeline that classifies biomedical abstracts from P
 
 ## Project Overview
 
-This project retrieves real-world abstracts from PubMed based on multiple disease keywords and trains a multiclass text classifier to categorize them automatically. It's designed as a proof-of-concept for biomedical text classification tasks in noisy and unstructured environments.
+This project retrieves abstracts from PubMed based on multiple disease keywords and trains a multiclass text classifier to categorize them automatically. It's designed as a proof-of-concept for biomedical text classification tasks in noisy and unstructured environments.
 
 - Language: Python
 - Libraries: `Biopython`, `scikit-learn`, `pandas`
@@ -14,7 +14,7 @@ This project retrieves real-world abstracts from PubMed based on multiple diseas
 
 ## Features
 
-- Programmatic access to PubMed abstracts using the Entrez API
+- Access to PubMed abstracts using the Entrez API
 - Automated corpus creation and labeling
 - Preprocessing pipeline using `TfidfVectorizer`
 - Multiclass classifier with `LogisticRegression`
