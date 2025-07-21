@@ -1,4 +1,4 @@
-# PubMed-NLP-Classifier
+# PubMed NLP Classifier
 
 A lightweight end-to-end ML pipeline that classifies biomedical abstracts from PubMed into disease categories using TF-IDF and Logistic Regression.
 
