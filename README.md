@@ -2,7 +2,7 @@
 
 A lightweight end-to-end ML pipeline that classifies biomedical abstracts from PubMed into disease categories using TF-IDF and Logistic Regression.
 
-## 🧠 Project Overview
+## Project Overview
 
 This project retrieves real-world abstracts from PubMed based on multiple disease keywords and trains a multiclass text classifier to categorize them automatically. It's designed as a proof-of-concept for biomedical text classification tasks in noisy and unstructured environments.
 
@@ -12,7 +12,7 @@ This project retrieves real-world abstracts from PubMed based on multiple diseas
 - Model: TF-IDF + Logistic Regression
 - Classes: `["cancer", "diabetes", "stroke", "asthma", "hypertension"]`
 
-## 🚀 Features
+## Features
 
 - Programmatic access to PubMed abstracts using the Entrez API
 - Automated corpus creation and labeling
@@ -20,7 +20,7 @@ This project retrieves real-world abstracts from PubMed based on multiple diseas
 - Multiclass classifier with `LogisticRegression`
 - Achieved ~61% accuracy on test set across 5 disease classes
 
-## 📦 Installation
+## Installation
 
 ```bash
 git clone https://github.com/yourusername/pubmed-nlp-classifier.git
